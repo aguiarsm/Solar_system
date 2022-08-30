@@ -13,12 +13,6 @@ class Constantes:
         self.Mc = 6.39e20  # unknown comet
         self.AU = 1.5e11
         self.dt = 24*60*60
-
-
-    def __str__(self):
-        return 0
-
-
 _constantes = Constantes()
 
 class CorpoCeleste:
